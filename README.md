@@ -1,4 +1,5 @@
-# Setup a new Macbook
+# Setup a new Macbook 
+## for python beginner
 - Install [chrome](https://www.google.com/chrome/next-steps.html)
 - Install xcode `xcode-select --install`
 - Install [brew](https://brew.sh/) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -18,3 +19,6 @@
   echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
   ```
   - restart shell: `exec $SHELL`
+- Install [Github Desktop](https://desktop.github.com/download/)
+- Install [VScode](https://code.visualstudio.com/)
+  - Install python plugin
