@@ -13,12 +13,19 @@
     ```
   - restart shell: `exec $SHELL`
   - install python `pyenv install 3.11` (choose a version you like)
-- Install [poetry](https://github.com/python-poetry/poetry) `brew install poetry`(for 2.0+) or `curl -sSL https://install.python-poetry.org | python - --version 1.8.3`
+- Install [poetry](https://github.com/python-poetry/poetry) `curl -sSL https://install.python-poetry.org | python - --version 1.8.3` (recommend) or `brew install poetry`(for 2.0+)
   - setup shell environment. For zsh:
   ```bash
   echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
   ```
   - restart shell: `exec $SHELL`
 - Install [Github Desktop](https://desktop.github.com/download/)
+  - Sign in with your github account 
 - Install [VScode](https://code.visualstudio.com/)
   - Install python plugin
+- Env setting:
+  - in the folder, `poetry env use 3.11` and `poetry init`
+  - in VScode, `Shift + Cmd + P` => `Python: Select Interpreter` => Select `Python 3.11***** : Poetry` as your virtual environment
+  - Add dependencies
+    - If there is `pyproject.toml`, `poetry install`
+    - Otherwise, add the denpendencies as `poetry add pandas@2.2.0`
