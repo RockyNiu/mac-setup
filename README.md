@@ -11,6 +11,7 @@
     echo 'eval "$(pyenv init -)"' >> ~/.zshrc
     ```
   - restart shell: `exec $SHELL`
+  - install python `pyenv install 3.11` (choose a version you like)
 - Install poetry `brew install poetry`(for 2.0+) or `curl -sSL https://install.python-poetry.org | python - --version 1.8.3`
   - setup shell environment. For zsh:
   ```bash
