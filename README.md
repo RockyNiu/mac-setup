@@ -11,7 +11,9 @@
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hong/.bash_profile
     eval "$(/opt/homebrew/bin/brew shellenv)"
     ```
-- Install [pyenv](https://github.com/pyenv/pyenv) `brew install pyenv`
+### Python Env
+- Install [pyenv](https://github.com/pyenv/pyenv) 
+  - `brew install pyenv`
   - setup shell environment. For zsh:
     ```bash
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -20,7 +22,8 @@
     ```
   - restart shell: `exec $SHELL`
   - install python `pyenv install 3.11` (choose a version you like)
-- Install [poetry](https://github.com/python-poetry/poetry) `curl -sSL https://install.python-poetry.org | python - --version 1.8.3` (recommend) or `brew install poetry`(for 2.0+)
+- Install [poetry](https://github.com/python-poetry/poetry) 
+  - `curl -sSL https://install.python-poetry.org | python - --version 1.8.3` (recommend) or `brew install poetry`(for 2.0+)
   - setup shell environment. For zsh:
   ```bash
   echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
