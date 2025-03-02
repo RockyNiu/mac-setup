@@ -11,6 +11,9 @@
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hong/.bash_profile
     eval "$(/opt/homebrew/bin/brew shellenv)"
     ```
+- Install [VScode](https://code.visualstudio.com/)
+  - Install python plugin
+  
 ### Python Env
 - Install [pyenv](https://github.com/pyenv/pyenv) 
   - `brew install pyenv`
@@ -31,11 +34,16 @@
   - restart shell: `exec $SHELL`
 - Install [Github Desktop](https://desktop.github.com/download/)
   - Sign in with your github account 
-- Install [VScode](https://code.visualstudio.com/)
-  - Install python plugin
 - Env setting:
   - in the folder, `poetry env use 3.11` and `poetry init`
   - in VScode, `Shift + Cmd + P` => `Python: Select Interpreter` => Select `Python 3.11***** : Poetry` as your virtual environment
   - Add dependencies
     - If there is `pyproject.toml`, `poetry install`
     - Otherwise, add the denpendencies as `poetry add pandas@2.2.0`
+      
+### Ruby Env
+- Install [rbenv](https://github.com/rbenv/rbenv)
+  -  `brew install rbenv ruby-build`
+  -  `rbenv init`
+- 
+
