@@ -1,5 +1,5 @@
 # Setup a new Macbook 
-## for python beginner
+## common setup for beginner
 - Install [chrome](https://www.google.com/chrome/next-steps.html)
 - Install xcode 
   - `xcode-select --install`
