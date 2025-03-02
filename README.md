@@ -1,9 +1,16 @@
 # Setup a new Macbook 
 ## for python beginner
 - Install [chrome](https://www.google.com/chrome/next-steps.html)
-- Install xcode `xcode-select --install`
-- Install [brew](https://brew.sh/) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-  - remember to follow the instruction shown after brew installation to add `brew` into your path
+- Install xcode 
+  - `xcode-select --install`
+- Install [brew](https://brew.sh/) 
+  - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  - remember to follow the instruction shown after brew installation to add `brew` into your path, similar as the following
+    ```bash
+    echo >> /Users/hong/.bash_profile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hong/.bash_profile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    ```
 - Install [pyenv](https://github.com/pyenv/pyenv) `brew install pyenv`
   - setup shell environment. For zsh:
     ```bash
