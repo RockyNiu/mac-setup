@@ -47,4 +47,5 @@
   -  `rbenv init`
 - Install ruby
   - `rbenv install 3.3.7`
+  - `rbenv global 3.3.7`
 
