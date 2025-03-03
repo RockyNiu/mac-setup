@@ -45,5 +45,6 @@
 - Install [rbenv](https://github.com/rbenv/rbenv)
   -  `brew install rbenv ruby-build`
   -  `rbenv init`
-- 
+- Install ruby
+  - `rbenv install 3.3.7`
 
